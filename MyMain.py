@@ -116,7 +116,7 @@ def get_lat_long_opencage(address, api_key):
         return None, None
 
 # Example usage
-api_key = "f7a9e963ed36475ea130feb0fe8ed54f"  # Replace with your OpenCage API key
+api_key = "" # put opencage api here bro
 
 restaurant_lat,restaurant_long = get_lat_long_opencage(restaurant_address, api_key)
 delivery_lat,delivery_long = get_lat_long_opencage(delivery_address, api_key)
